@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 # Add DDEV releases to your package repository
 sudo sh -c 'echo ""'
 echo '[ddev]

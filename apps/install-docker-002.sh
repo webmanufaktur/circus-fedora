@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 sudo groupadd docker
 
 sudo usermod -aG docker $USER

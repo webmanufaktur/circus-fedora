@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 sudo rpm --import https://windsurf-stable.codeiumdata.com/mQfcApCOdSLoWOSI/yum/RPM-GPG-KEY-windsurf
 
 echo -e "[windsurf-next]

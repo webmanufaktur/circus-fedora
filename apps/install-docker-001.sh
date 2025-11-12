@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 sudo dnf remove docker \
                   docker-client \
                   docker-client-latest \

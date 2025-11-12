@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-sudo dnf install gnome-tweaks -y
+sudo dnf install gh -y # --repo gh-cli
