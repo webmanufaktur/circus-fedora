@@ -14,4 +14,4 @@ EOL
 
 sudo dnf makecache
 
-sudo dnf install antigravity
+sudo dnf install antigravity -y
